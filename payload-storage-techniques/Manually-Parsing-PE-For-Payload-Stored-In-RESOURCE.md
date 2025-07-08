@@ -1,4 +1,4 @@
-## Explanation of Manually Parsing a PE Resource Directory Tree
+## Manually Parsing a PE Resource Directory Tree
 
 Let’s break down how the PE (Portable Executable) resource directory tree is manually parsed to locate an RCDATA blob by ID and retrieve its raw bytes. This process involves navigating the PE file structure, used by Windows executables and DLLs to store resources like icons, strings, and custom data (e.g., RCDATA).
 
